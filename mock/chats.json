@@ -1,0 +1,21 @@
+{
+  "chats": [
+    {
+      "users": ["123", "321"],
+      "messages": [
+        { "from": "123", "body": "Hey there!" },
+        { "from": "321", "body": "Hi, all good?" },
+        { "from": "123", "body": "Yeah, thanks!" }
+      ]
+    },
+    {
+      "users": ["123", "456"],
+      "messages": [
+        { "from": "123", "body": "Hey there!" },
+        { "from": "123", "body": "How's it going?" },
+        { "from": "123", "body": "Dude?" },
+        { "from": "456", "body": "Yeah, all good, thanks!" }
+      ]
+    }
+  ]
+}
