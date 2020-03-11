@@ -8,12 +8,12 @@ export const ChatBox = ({ users, messages }) => {
     <div data-testid="chat-box">
       <div>
         {users.map(user => (
-          <span>{user}</span>
+          <span key={user}>{user}</span>
         ))}
       </div>
 
-      {adjustedMessages.map(message => (
-        <div data-testid="message">
+      {adjustedMessages.map((message, index) => (
+        <div data-testid="message" key={`${message}-${index}`}>
           <span>{message.from}</span>
           <br />
           <span>{message.body}</span>

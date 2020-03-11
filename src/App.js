@@ -12,8 +12,8 @@ function App() {
 
   return (
     <div>
-      {chats.map(() => (
-        <ChatBox chats={chats} />
+      {chats.map(chat => (
+        <ChatBox key={chat.id} {...chat} />
       ))}
     </div>
   );

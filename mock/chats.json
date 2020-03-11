@@ -1,6 +1,7 @@
 {
   "chats": [
     {
+      "id": "1234123124",
       "users": ["123", "321"],
       "messages": [
         { "from": "123", "body": "Hey there!" },
@@ -9,6 +10,7 @@
       ]
     },
     {
+      "id": "12341231121515",
       "users": ["123", "456"],
       "messages": [
         { "from": "123", "body": "Hey there!" },
